@@ -1,13 +1,13 @@
 package web.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import web.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Component
+@Service
 public class CarServiceImp implements CarService{
     private List<Car> cars;
     private static int ID_INCR = 0;
